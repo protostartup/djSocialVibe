@@ -1,7 +1,7 @@
 *.swp
-bin/*
-include/*
-local/*
-lib/*
 *.json
 SocialVibe/
+django-wedding-website/bin/
+django-wedding-website/include/
+django-wedding-website/lib/
+django-wedding-website/local/
