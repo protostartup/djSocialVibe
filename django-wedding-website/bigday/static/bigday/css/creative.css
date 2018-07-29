@@ -92,6 +92,13 @@ font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif
     margin-top:-2%;
     padding: 50px 0;
 }
+#space2 {
+    padding: 50px 0;
+}
+#space3 {
+    padding-top:50px;
+    padding-bottom:10px;
+}
 #spaceMargin {
     margin-top: 5%;
 }
@@ -202,7 +209,6 @@ aside {
 header {
     position: relative;
     width: 100%;
-    min-height: auto;
     text-align: center;
     color: rgb(28,56,81);
     background-position: center;
@@ -247,9 +253,7 @@ header .header-content .header-content-inner p {
 }
 
 @media(min-width:768px) {
-    header {
-        min-height: 100%;
-    }
+   
 
     header.secondary {
         min-height: 30%;
