@@ -8,3 +8,13 @@ _working/
 data/
 guests/static/save-the-date/images/archive/
 new/
+bigday/bin/
+bigday/include/
+bigday/lib/
+bigday/local/
+bigday/pip-selfcheck.json
+bin/
+include/
+lib/
+local/
+pip-selfcheck.json
