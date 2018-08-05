@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'u7!-y4k1c6b44q507nr_l+c^12o7ur++cpzyn!$65w^!gum@h%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['.herokuapp.com','127.0.0.1','localhost','192.168.1.1','192.168.1.18','rocky-retreat-78383.herokuapp.com','newdemosocial.herokuapp.com','bigdaysocialvibe.herokuapp.com','0.0.0.0']
+ALLOWED_HOSTS = ['.herokuapp.com','127.0.0.1','localhost','192.168.1.1','192.168.1.18','rocky-retreat-78383.herokuapp.com','newdemosocial.herokuapp.com','bigdaysocialvibe.herokuapp.com','0.0.0.0','*','socialvibedjango.herokuapp.com']
 
 
 # Application definition
