@@ -48,22 +48,37 @@ h5,
 h6 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
-.
 
 
-p {
+.p {
     margin-bottom: 20px;
     font-size: 16px;
     line-height: 1.5;
+	
 }
 
-.text_on_image
+.textimage
 {
-
-color:black;
-font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif
+	font-family: "Raleway",sans-serif;
+    font-size: 40px;
+    line-height: 75px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+	font-weight:600px;
+	text-transform: uppercase;
+    text-align: center;
+	top:0%;
 }
-
+.paragraph_1
+{
+	color:black;
+	font-family: 'Comfortaa', 'Century Gothic', Arial;
+	font-size: 25px;
+}
+.paragraph_bg
+{
+	background-color: grey;
+}	
 .bg-primary {
     background-color: #f05f40;
 }
@@ -80,7 +95,9 @@ font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif
 
 .text-faded {
     color: rgba(255,255,255,.7);
-    margin-top: 20px
+    margin-top: 10px;
+	font-size:15px
+	
 }
 #footerSpace {
     margin-top:0px;
@@ -284,6 +301,8 @@ header .header-content .header-content-inner p {
 
 .section-heading {
 	margin-top: 0;
+	color:white;
+	font-family: "kulturista-web", serif;
 }
 
 .service-box {
@@ -396,6 +415,44 @@ header .header-content .header-content-inner p {
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0;
+}
+.button {
+  border-radius: 4px;
+  background-color:#428bca;
+  border: none;
+  color: white ;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  text-transform:uppercase;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .btn-default {
