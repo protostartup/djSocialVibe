@@ -2,6 +2,7 @@
 *.swn
 *.swm
 *.swo
+*.swp
 .idea*
 *.pyc
 localsettings.py
