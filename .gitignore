@@ -1,4 +1,7 @@
 *~
+*.swn
+*.swm
+*.swo
 .idea*
 *.pyc
 localsettings.py
