@@ -12,12 +12,11 @@ def contact(request):
         form = ContactForm()
     else:
         form = ContactForm(request.POST)
-        print("post received")
         if form.is_valid():
-	    messages.success(request, 'Form submission successful')
+	    #messages.success(request,'Form submission successful')
             contact_name = form.cleaned_data['username']
             contact_email = form.cleaned_data['usermail']
-	    contact_subject = form.cleaned_data['subject']
+	    #contact_subject = form.cleaned_data['subject']
             content = form.cleaned_data['message']
             try:
                 email = EmailMessage(contact_name,
