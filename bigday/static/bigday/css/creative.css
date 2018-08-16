@@ -71,7 +71,7 @@ h6 {
 }
 .paragraph_1
 {
-	color:black;
+	color:white;
 	font-family: 'Comfortaa', 'Century Gothic', Arial;
 	font-size: 25px;
 }
@@ -308,8 +308,6 @@ header .header-content .header-content-inner p {
 .section-heading1{
 	margin-top: 0;
 	color:white;
-	background-color:grey;
-	font-family: Arial, Helvetica, sans-serif;
 	font-size:40px;
 	font-family: 'Comfortaa', 'Century Gothic', Arial;
 }
