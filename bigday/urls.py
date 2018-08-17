@@ -1,12 +1,13 @@
 from django.conf.urls import url, include
 from django.contrib import admin
-from bigday.views import contact, thanks, home
+from bigday.views import contact, thanks, home, donate
 
 urlpatterns = [
     url(r'^$', home),
     url(r'^admin/', admin.site.urls),
     url(r'^contact/$', contact),
     url(r'^thanks/$', thanks),
+    url(r'^donate/$', donate),
 #    url(r'^thanks/$', views.thanks, name='thanks'),
 #url(r'^contact/$', include('bigday.urls')),
  #   url(r'^contact/$', views.contact),
