@@ -341,20 +341,20 @@ input[type=submit]:active, input[type=submit]:focus {
     <body>
         <div class="container">
             <div class="row">
-                <div></div>
+		<div class="col-sm-12 col-md-12 col-lg-12">
                 <img id="postcard" src="{% static 'bigday/images/images/socialvibeteam.jpg' %}" alt="postcard" class="img-responsive move">
                 <div id="content" >
-                    <h1> Contact me </h1>
+                    <h1> Contact us </h1>
 
                     <form role="form" id="DogForm" method="POST">
  {% csrf_token %}
                         <div class="form-group">
                             <label for="username" class="iconic user" > Name <span class="required">*</span></label>
-                            <input type="text" class="form-control" name="username" id="username"  required="required" placeholder="Hi friend, how may I call you ?">
+                            <input type="text" class="form-control" name="username" id="username"  required="required" placeholder="Hi friend, how may We call you ?">
                         </div>
                         <div class="form-group">
                             <label for="usermail" class="iconic mail-alt"> E-mail address <span class="required">*</span></label> 
-                            <input type="email" class="form-control" name="usermail" id="usermail" placeholder="I promise I hate spam as much as you do" required="required">
+                            <input type="email" class="form-control" name="usermail" id="usermail" placeholder="We promise we hate spam as much as you do" required="required">
                         </div>
                         <div class="form-group">
                             <label for="subject" class="iconic quote-alt"> Subject </label>
@@ -362,7 +362,7 @@ input[type=submit]:active, input[type=submit]:focus {
                         </div>
                         <div class="form-group">
                             <label for="message" class="iconic comment"> Message </label>
-                            <textarea name="message" id="message"  class="form-control" rows="3" placeholder="Don't be shy, live me a friendly message and I'll answer as soon as possible"  required="required"></textarea>
+                            <textarea name="message" id="message"  class="form-control" rows="3" placeholder="Don't be shy, leave us a friendly message and We'll answer as soon as possible"  required="required"></textarea>
                         </div>
                         <input type="submit" value=" ★  Send the mail !" />    	
                     </form>
@@ -371,6 +371,7 @@ $("#DogForm").on('submit', function(event) {
       alert("New Dog Added");
 </script>
                 </div>
+		</div>
             </div>
             
         </div>
