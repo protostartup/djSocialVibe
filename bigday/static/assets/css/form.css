@@ -1,0 +1,145 @@
+body,html {
+			color: black;
+			font-family: sans-serif;
+			height: 100%;
+			background-color: #e6e6e6;
+			margin: 10px;
+}
+p {
+	padding: 7px 7px 7px 7px;
+	font-weight:bold;
+	font-size:10px;
+	color:gray;
+}	
+h1 {
+	font-size:bold;
+	color: gray;
+	padding:15px 12px 6px 7px;
+	margin: 30px 24px 12px 14px;
+}
+h3{
+	padding:5px;
+	color: grey;
+	background:transparent;
+}
+.form {
+		height: 650px;
+		width:   900px;
+		padding: 10px;
+		margin: 15px auto 0px auto;
+		background-color: white;
+		-moz-border-radius: 15px;
+		-webkit-border-radius: 15px;
+		
+		 
+}
+
+.one {
+	
+		width: 800px;
+		padding: 10px;
+		border-top: 1px solid gray;
+		border-left: 1px solid white;
+		border-right: 1px solid white;
+		border-bottom: 1px solid white;
+		float:left;
+		margin bottom: 15px;
+		
+}
+.two {
+		border-top: 1px solid gray;
+		border-right: 1px solid gray;
+		border-left: 1px solid white;
+		border-bottom: 1px solid white;
+		width:400px;
+		height: 270px;
+		padding: 10px;
+		float: left;
+}
+.three {
+		border-top: 1px solid gray;
+		border-left: 1px solid gray;
+		border-right: 1px solid white;
+		border-bottom: 1px solid white;
+		width:375px;
+		height:270px;
+		padding:10px;
+		float:left;
+}
+.four {
+		border-top: 1px solid gray;
+		border-right: 1px solid gray;
+		border-left: 1px solid white;
+		border-bottom: 1px solid white;
+		width:500px;
+		padding: 10px;
+		float: left;
+}
+.info {
+		
+		margin: 1px 1px 1px 1px;
+		border: 1px transparent;
+		padding: 1px;
+		width: 350px;
+		height:100px;
+		font-size:10px;
+		color: black;
+		background-color:#ffffcc;
+}
+legend {
+		color: lightgreen;
+		padding:-1px;
+		font-weight:bold;
+		font-size: 15px;
+}
+
+label {
+	text-align: right;
+	float: left;
+	width: 100px;
+	margin: 6px 2px 3px 4px;
+	
+}
+.of {
+		float:right;
+		padding: 2px;
+		font-style:italic;
+}
+input {
+		float: left;
+		width: 150px;
+		color: gray;
+}
+input[type=radio] {
+		float:left;
+		width: 20px;
+}
+.gender {
+		float: left;
+		text-align: left;
+		width: 20px;
+}
+input[type=button] {
+		float: left;
+		padding: 8px 10px 8px;
+		color: #fff;
+		text-decoration: none;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		cursor: pointer;
+		background-color: lightgreen;
+		font-size: 18px;
+		margin: 10px;
+		
+}
+		
+select {
+		float: left;
+}
+input[type=checkbox] {
+		float: left;
+		width: 14px;
+		margin-top: 4px;
+}
+		
+		

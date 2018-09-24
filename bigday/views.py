@@ -5,7 +5,7 @@ from .forms import ContactForm, DonateForm
 from django.contrib import messages
 
 def home(request):
-    return render(request, './home.html',{})
+    return render(request, './index.html',{})
 
 def contact(request):
     if request.method == 'GET':
@@ -29,7 +29,7 @@ def contact(request):
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return redirect('/thanks/')
-    return render(request, 'partials/newcontact.html', {'form': form})
+    return render(request, 'contact.html', {'form': form})
 
 
 def thanks(request):
@@ -57,5 +57,5 @@ def donate(request):
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return redirect('/thanks/')
-    return render(request, 'partials/newdonate.html', {'form': form})
+    return render(request, 'donate.html', {'form': form})
 
