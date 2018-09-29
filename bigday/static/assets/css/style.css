@@ -1128,8 +1128,8 @@ img.mfp-img {
 	
 }
 .wrapsection {  
-    padding-top:40px;
-	padding-bottom:40px;
+    padding-top:140px;
+	padding-bottom:140px;
     position: relative;
   }
 
@@ -1146,7 +1146,8 @@ img.mfp-img {
 	background-size: cover;
 	overflow: hidden;
 	z-index: 1;	
-	color:#fff;
+	/* color:#fff; */
+	color:rgb(28, 154, 228);
 }
 .parallax-overlay {
 	position: absolute;
