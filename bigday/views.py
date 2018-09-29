@@ -10,6 +10,10 @@ def home(request):
 def volunteer(request):
     return render(request, './volunteer.html',{})
 
+def donate(request):
+    return render(request, './donate.html',{})
+
+
 def contact(request):
     if request.method == 'GET':
         form = ContactForm()

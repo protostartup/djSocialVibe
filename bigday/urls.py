@@ -1,6 +1,6 @@
 from django.conf.urls import url, include
 from django.contrib import admin
-from bigday.views import contact, thanks, home, volunteer
+from bigday.views import contact, thanks, home, volunteer, donate
 
 urlpatterns = [
     url(r'^$', home),
