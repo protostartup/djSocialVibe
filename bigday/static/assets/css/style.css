@@ -1171,8 +1171,8 @@ img.mfp-img {
 }
 @media (max-width:767px) {
 	.section,.parallax.section .container {
-					padding-top:30px;
-					padding-bottom:30px;
+					padding-top:0px;
+					padding-bottom:0px;
 	}
 	.service-box,.img-responsive,.carousel {
 					margin-bottom:30px;
@@ -1221,9 +1221,9 @@ img.mfp-img {
 	p.lead {
 					font-size:18px;
 	}
-	.section {
+	/* .section {
 					padding:60px 0;
-	}
+	} */
 	.maintitle p.lead {
 					margin-bottom:40px;
 	}
