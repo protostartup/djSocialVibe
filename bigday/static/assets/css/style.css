@@ -1170,10 +1170,10 @@ img.mfp-img {
 	}
 }
 @media (max-width:767px) {
-	.section,.parallax.section .container {
+	/* .section,.parallax.section .container {
 					padding-top:0px;
 					padding-bottom:0px;
-	}
+	} */
 	.service-box,.img-responsive,.carousel {
 					margin-bottom:30px;
 	}
