@@ -1146,8 +1146,8 @@ img.mfp-img {
 	background-size: cover;
 	overflow: hidden;
 	z-index: 1;	
-	/* color:#fff; */
-	color:rgb(28, 154, 228);
+	color:#fff;
+	
 }
 .parallax-overlay {
 	position: absolute;
