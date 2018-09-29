@@ -7,6 +7,9 @@ from django.contrib import messages
 def home(request):
     return render(request, './index.html',{})
 
+def volunteer(request):
+    return render(request, './volunteer.html',{})
+
 def contact(request):
     if request.method == 'GET':
         form = ContactForm()
@@ -35,27 +38,27 @@ def contact(request):
 def thanks(request):
     return render(request, './home.html', {})
 
-def donate(request):
-    if request.method == 'GET':
-        form = DonateForm()
-    else:
-        form = DonateForm(request.POST)
-        if form.is_valid():
-            #messages.success(request,'Form submission successful')
-            contact_name = form.cleaned_data['username']
-            contact_email = form.cleaned_data['usermail']
-            #contact_subject = form.cleaned_data['subject']
-            content = form.cleaned_data['message']
-            try:
-                email = EmailMessage(contact_name,
-                                    content,
-                                    contact_email,
-                                    ['protostartup@gmail.com'], #change to your email
-                                     reply_to=[contact_email],
-                                   )
-                email.send()
-            except BadHeaderError:
-                return HttpResponse('Invalid header found.')
-            return redirect('/thanks/')
-    return render(request, 'donate.html', {'form': form})
+# def donate(request):
+#     if request.method == 'GET':
+#         form = DonateForm()
+#     else:
+#         form = DonateForm(request.POST)
+#         if form.is_valid():
+#             #messages.success(request,'Form submission successful')
+#             contact_name = form.cleaned_data['username']
+#             contact_email = form.cleaned_data['usermail']
+#             #contact_subject = form.cleaned_data['subject']
+#             content = form.cleaned_data['message']
+#             try:
+#                 email = EmailMessage(contact_name,
+#                                     content,
+#                                     contact_email,
+#                                     ['protostartup@gmail.com'], #change to your email
+#                                      reply_to=[contact_email],
+#                                    )
+#                 email.send()
+#             except BadHeaderError:
+#                 return HttpResponse('Invalid header found.')
+#             return redirect('/thanks/')
+#     return render(request, 'donate.html', {'form': form})
 
