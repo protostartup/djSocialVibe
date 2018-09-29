@@ -4,6 +4,7 @@ from bigday.views import contact, thanks, home, volunteer, donate
 
 urlpatterns = [
     url(r'^$', home),
+    url(r'^home',home),
     url(r'^admin/', admin.site.urls),
     url(r'^contact/$', contact),
     url(r'^thanks/$', thanks),
