@@ -1128,8 +1128,8 @@ img.mfp-img {
 	
 }
 .wrapsection {  
-    padding-top:140px;
-	padding-bottom:140px;
+    /* padding-top:140px;
+	padding-bottom:140px; */
     position: relative;
   }
 
