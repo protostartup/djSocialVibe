@@ -90,6 +90,7 @@ img {
 	font-size:30px;
 	letter-spacing:5px;
 	position: relative;
+	color: white;
 }
 .whitecolor {
 	color: #fff;
@@ -459,6 +460,7 @@ label {
 	margin-bottom:80px;
 	padding-left:20px;
 	padding-right:20px;
+	color: white;
 }
 .service-box {
 	margin-bottom:30px;
