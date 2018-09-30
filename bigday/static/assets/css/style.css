@@ -92,14 +92,6 @@ img {
 	position: relative;
 	color: white;
 }
-
-.section-title2 {
-	text-transform:uppercase;
-	font-size:30px;
-	letter-spacing:5px;
-	position: relative;
-	color: black;
-}
 .whitecolor {
 	color: #fff;
 }
@@ -469,14 +461,6 @@ label {
 	padding-left:20px;
 	padding-right:20px;
 	color: white;
-}
-.maintitle .lead2 {
-	max-width:840px;
-	margin:0px auto;
-	margin-bottom:80px;
-	padding-left:20px;
-	padding-right:20px;
-	color:black;
 }
 .service-box {
 	margin-bottom:30px;
