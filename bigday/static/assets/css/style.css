@@ -1150,12 +1150,19 @@ img.mfp-img {
 	
 }
 .parallax-overlay {
-	position: absolute;
+	/* position: absolute;
 	top: 0;
 	bottom: 0;
 	right: 0;
 	left: 0;
-	z-index: 2;
+	z-index: 2; */
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	perspective: 1px;
+	position: absolute;
+	left: 0;
+	right: 0;
 }
 /*	Responsive	==================================================*/ 
 @media (max-width:991px) {
