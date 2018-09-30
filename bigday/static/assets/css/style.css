@@ -89,6 +89,7 @@ img {
 	text-transform:uppercase;
 	font-size:30px;
 	letter-spacing:5px;
+	position: relative;
 }
 .whitecolor {
 	color: #fff;
