@@ -23,7 +23,7 @@ def contact(request):
 	    #messages.success(request,'Form submission successful')
             contact_name = form.cleaned_data['username']
             contact_email = form.cleaned_data['usermail']
-	    #contact_subject = form.cleaned_data['subject']
+	    contact_subject = form.cleaned_data['phone']
             content = form.cleaned_data['message']
             try:
                 email = EmailMessage(contact_name,
