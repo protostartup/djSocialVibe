@@ -89,16 +89,6 @@ img {
 	text-transform:uppercase;
 	font-size:30px;
 	letter-spacing:5px;
-	position: relative;
-	color: white;
-}
-
-.section-title2 {
-	text-transform:uppercase;
-	font-size:30px;
-	letter-spacing:5px;
-	position: relative;
-	color:black;
 }
 .whitecolor {
 	color: #fff;
@@ -436,7 +426,8 @@ label {
 }
 /*	Hero	==================================================*/
 #hero {
-	padding:10%;
+	margin-top:140px;
+	padding:0;
 	color:#FFF;
 }
 #hero .herotext {
@@ -468,16 +459,6 @@ label {
 	margin-bottom:80px;
 	padding-left:20px;
 	padding-right:20px;
-	color: white;
-}
-
-.maintitle .lead2 {
-	max-width:840px;
-	margin:0px auto;
-	margin-bottom:80px;
-	padding-left:20px;
-	padding-right:20px;
-	color: black;
 }
 .service-box {
 	margin-bottom:30px;
@@ -1173,6 +1154,7 @@ img.mfp-img {
 	bottom: 0;
 	right: 0;
 	left: 0;
+	z-index: 2;
 }
 /*	Responsive	==================================================*/ 
 @media (max-width:991px) {
@@ -1282,15 +1264,9 @@ img.mfp-img {
 					margin: 0;
 	}
 }
-.img {
-	background-image:url(../img/intro.jpg);
-	background-attachment:fixed;
-	background-size:100% 100%;
+
+.lead1
+{
+	margin-bottom:0px;
 }
-@media all and (max-width:900px) {
-	.img {
-		background-image:url(../img/intro.jpg);
-	background-attachment:unset;
-	background-size:100% 100%;
-	}
-}
+	

@@ -1,8 +1,8 @@
 from django import forms
 
 class ContactForm(forms.Form):
-    username = forms.CharField(required=True, label="username")
-    usermail = forms.EmailField(required=True, label="usermail")
+    username = forms.CharField(required=True, label="name")
+    usermail = forms.EmailField(required=True, label="email")
     phone = forms.CharField(required = True, label="phone")
     message = forms.CharField(
         required=True,
@@ -19,4 +19,3 @@ class DonateForm(forms.Form):
         widget=forms.Textarea,
         label="message"
     )
-    

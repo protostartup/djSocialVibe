@@ -10,6 +10,7 @@ urlpatterns = [
     url(r'^thanks/$', thanks),
     url(r'^donate', donate),
     url(r'^volunteer', volunteer),
+    url(r'^process', contact),
 #   url(r'^volunteer/$', volunteer),
 #    url(r'^thanks/$', views.thanks, name='thanks'),
 #url(r'^contact/$', include('bigday.urls')),

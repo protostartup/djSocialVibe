@@ -65,4 +65,3 @@ def thanks(request):
 #                 return HttpResponse('Invalid header found.')
 #             return redirect('/thanks/')
 #     return render(request, 'donate.html', {'form': form})
-
