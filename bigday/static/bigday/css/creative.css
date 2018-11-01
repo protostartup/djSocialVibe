@@ -740,4 +740,12 @@ body {
     background-color: #fff;
     border-color: #fff;
 }
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+
 /******************************** Carousel's css *****************************/
