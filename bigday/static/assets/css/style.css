@@ -1152,6 +1152,30 @@ img.mfp-img {
     position: relative;
   }
 
+  .wrapsectiongallery{  
+    padding-top:140px;
+	padding-bottom:0px;
+    position: relative;
+  }
+
+  .wrapsectionparticipation{  
+    padding-top:75px;
+	padding-bottom:0px;
+    position: relative;
+  }
+
+  .wrapsection1{  
+    padding-top:0px;
+	padding-bottom:0px;
+    position: relative;
+  }
+
+  .wrapsectiondonate {  
+    padding-top:0px;
+	padding-bottom:0px;
+	position: relative;
+  }
+
 .parallax.section .container{
 	position: relative;
 	z-index: 4;
